@@ -17,8 +17,8 @@ const stats=[
   const [location, setLocation] = useState('');
   const [category, setCategory] = useState('');
   return (
-    <section className='w-full flex flex-col items-center justify-center mt-20'>
-      <h1 className='font-extrabold text-5xl mb-5'>Find Your Dream Job Today!</h1>
+    <section className='w-full flex flex-col items-center justify-center mt-24'>
+      <h1 className='font-extrabold  text-6xl mb-5'>Find Your Dream Job Today!</h1>
       <p className='text-lg max-w-2xl mb-4'>connecting talent with opportunity: Your Gateaway tp Career Success.</p>
 {/* <div className='flex items-center w-full bg-white rounded-full max-w-4xl mx-auto overflow-hidden'>
   <input className='flex-1 px-3 py-4 text-gray-800 focus:outline-none' type="text"
@@ -32,14 +32,14 @@ const stats=[
   <button>ok</button>
 </div> */}
 
-<div className="flex items-center bg-white rounded-2xl py-4 shadow-md overflow-hidden w-full max-w-4xl mx-auto mt-5">
+<div className="flex items-center bg-white rounded-2xl shadow-md overflow-hidden max-w-4xl mx-auto mt-5">
       {/* Job Title Input */}
       <input
         type="text"
         placeholder="Job Title or Company"
         value={jobTitle}
         onChange={(e) => setJobTitle(e.target.value)}
-        className="flex-1 px-4 py-3 text-gray-700 focus:outline-none"
+        className=" text-center px-4 py-3 text-gray-700 focus:outline-none"
       />
 
       {/* Divider */}
@@ -57,21 +57,21 @@ const stats=[
       </select>
 
       {/* Divider */}
-      <div className="w-px h-8 bg-gray-300" />
+      <div className="w-px h-8 bg-gray-300 mx-2" />
 
       {/* Category Select */}
       <select
         value={category}
         onChange={(e) => setCategory(e.target.value)}
-        className="px-4 py-3 text-gray-700 bg-transparent focus:outline-none"
+        className="px-4 py-3 text-gray-700 bg-transparent focus:outline-none mr-2"
       >
         <option value="">Select Category</option>
         <option value="dev">Developer</option>
-        <option value="design">Designer</option>
+        <option value="design">Designer</option> 
       </select>
 
       {/* Search Button */}
-      <button className="bg-teal-600 hover:bg-teal-700 text-white px-6 h-full rounded-none py-3 flex items-center gap-2">
+      <button className="bg-teal-600 hover:bg-teal-700 text-white px-6 h-full rounded-r-2xl py-6 flex items-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

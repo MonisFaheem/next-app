@@ -52,7 +52,19 @@ const HomeCard = () => {
   },
   ]
   return (
-    <div className='px-4 sm:px-6 lg:px-8'>
+
+    <div className='px-4 sm:px-6 lg:px-8 mb-12'>
+      <div>
+      <h1 className="font-bold text-5xl mb-1">Recent Jobs Available</h1>
+      <p className="text-sm text-gray-600">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, perspiciatis?
+      </p>
+    </div>
+      <div className="flex justify-end mb-4">
+    <button className="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors">
+      View All
+    </button>
+  </div>
       <div className='flex flex-col gap-8'>
       {jobs.map((job)=>(
 <div key={job.id} className='w-full bg-white mx-auto rounded-2xl shadow-sm p-6 flex flex-col sm:flex-row justify-between items-center gap-4'>
