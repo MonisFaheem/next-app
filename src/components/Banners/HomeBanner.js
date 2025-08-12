@@ -3,6 +3,7 @@ import React from 'react'
 import { useState } from 'react';
 import { IoBagHandle } from "react-icons/io5";
 import Brand from '../Brand';
+import CustomButton from '../CustomButton';
 
 const HomeBanner = () => {
 const stats=[
@@ -71,8 +72,9 @@ const stats=[
       </select>
 
       {/* Search Button */}
-      <button className="bg-teal-600 hover:bg-teal-700 text-white px-6 h-full rounded-r-2xl py-6 flex items-center gap-2">
-        <svg
+      <CustomButton
+      title="Search Job"
+        icon = {<svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
@@ -82,8 +84,9 @@ const stats=[
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z" />
         </svg>
-        Search Job
-      </button>
+        }
+        className="bg-teal-600 hover:bg-teal-700 text-white px-6 h-full rounded-r-2xl rounded-l-none py-6 flex items-center gap-2"
+      />
     </div>
 <div className='py-8 mt-20'>
   <div className='max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-10'>
@@ -91,8 +94,8 @@ const stats=[
       <div className='flex items-center gap-4' key={index}>
         <div className='bg-teal-600 p-4 rounded-full flex items-center justify-center'>{stat.icon}</div>
         <div>
-          <h3 className='text-white text-2xl font-semibold'>{stat.number}</h3>
-          <p className='text-gray-300'>{stat.label}</p>
+          <h3 className='text-2xl font-semibold'>{stat.number}</h3>
+          <p>{stat.label}</p>
           </div>
       </div>
     ))}

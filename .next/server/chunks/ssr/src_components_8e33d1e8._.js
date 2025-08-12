@@ -16,38 +16,38 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 const Brand = ()=>{
     const brands = [
         {
-            img: '/images/logo.png',
+            img: '/images/logo (1).png',
             alt: 'image1',
             width: '100',
             height: '80'
         },
         {
-            img: '/images/logo.png',
+            img: '/images/logo (2).png',
             alt: 'image1',
             width: '100',
             height: '80'
         },
         {
-            img: '/images/logo.png',
+            img: '/images/logo (3).png',
             alt: 'image1',
             width: '100',
             height: '80'
         },
         {
-            img: '/images/logo.png',
+            img: '/images/logo (4).png',
             alt: 'image1',
             width: '100',
             height: '80'
         },
         {
-            img: '/images/logo.png',
+            img: '/images/logo (5).png',
             alt: 'image1',
             width: '100',
             height: '80'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full overflow-hidden mt-20 justify-center flex mx-auto",
+        className: "w-full overflow-hidden mt-20 justify-center flex mx-auto bg-black h-20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex animate-scroll gap-12",
             children: [
@@ -87,7 +87,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/io5/index.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Brand$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Brand.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CustomButton$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/CustomButton.js [app-ssr] (ecmascript)");
 'use client';
+;
 ;
 ;
 ;
@@ -95,15 +97,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Brand$2
 ;
 const HomeBanner = ()=>{
     const stats = [
-        {
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IoBagHandle"], {}, void 0, false, {
-                fileName: "[project]/src/components/Banners/HomeBanner.js",
-                lineNumber: 9,
-                columnNumber: 10
-            }, ("TURBOPACK compile-time value", void 0)),
-            number: '12333',
-            label: 'Jobs'
-        },
         {
             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IoBagHandle"], {}, void 0, false, {
                 fileName: "[project]/src/components/Banners/HomeBanner.js",
@@ -121,6 +114,15 @@ const HomeBanner = ()=>{
             }, ("TURBOPACK compile-time value", void 0)),
             number: '12333',
             label: 'Jobs'
+        },
+        {
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IoBagHandle"], {}, void 0, false, {
+                fileName: "[project]/src/components/Banners/HomeBanner.js",
+                lineNumber: 12,
+                columnNumber: 10
+            }, ("TURBOPACK compile-time value", void 0)),
+            number: '12333',
+            label: 'Jobs'
         }
     ];
     const [jobTitle, setJobTitle] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
@@ -134,7 +136,7 @@ const HomeBanner = ()=>{
                 children: "Find Your Dream Job Today!"
             }, void 0, false, {
                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -142,7 +144,7 @@ const HomeBanner = ()=>{
                 children: "connecting talent with opportunity: Your Gateaway tp Career Success."
             }, void 0, false, {
                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -156,14 +158,14 @@ const HomeBanner = ()=>{
                         className: " text-center px-4 py-3 text-gray-700 focus:outline-none"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Banners/HomeBanner.js",
-                        lineNumber: 37,
+                        lineNumber: 38,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-px h-8 bg-gray-300"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Banners/HomeBanner.js",
-                        lineNumber: 46,
+                        lineNumber: 47,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -176,7 +178,7 @@ const HomeBanner = ()=>{
                                 children: "Select Location"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -184,7 +186,7 @@ const HomeBanner = ()=>{
                                 children: "New York"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                lineNumber: 55,
+                                lineNumber: 56,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -192,20 +194,20 @@ const HomeBanner = ()=>{
                                 children: "San Francisco"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                lineNumber: 56,
+                                lineNumber: 57,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Banners/HomeBanner.js",
-                        lineNumber: 49,
+                        lineNumber: 50,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-px h-8 bg-gray-300 mx-2"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Banners/HomeBanner.js",
-                        lineNumber: 60,
+                        lineNumber: 61,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -218,7 +220,7 @@ const HomeBanner = ()=>{
                                 children: "Select Category"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                lineNumber: 68,
+                                lineNumber: 69,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -226,7 +228,7 @@ const HomeBanner = ()=>{
                                 children: "Developer"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                lineNumber: 69,
+                                lineNumber: 70,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -234,50 +236,48 @@ const HomeBanner = ()=>{
                                 children: "Designer"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                lineNumber: 70,
+                                lineNumber: 71,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Banners/HomeBanner.js",
-                        lineNumber: 63,
+                        lineNumber: 64,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "bg-teal-600 hover:bg-teal-700 text-white px-6 h-full rounded-r-2xl py-6 flex items-center gap-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                xmlns: "http://www.w3.org/2000/svg",
-                                fill: "none",
-                                viewBox: "0 0 24 24",
-                                strokeWidth: 2,
-                                stroke: "currentColor",
-                                className: "w-5 h-5",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                    strokeLinecap: "round",
-                                    strokeLinejoin: "round",
-                                    d: "M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                    lineNumber: 83,
-                                    columnNumber: 11
-                                }, ("TURBOPACK compile-time value", void 0))
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CustomButton$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        title: "Search Job",
+                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                            xmlns: "http://www.w3.org/2000/svg",
+                            fill: "none",
+                            viewBox: "0 0 24 24",
+                            strokeWidth: 2,
+                            stroke: "currentColor",
+                            className: "w-5 h-5",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                d: "M21 21l-4.35-4.35m0 0A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                lineNumber: 75,
-                                columnNumber: 9
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            "Search Job"
-                        ]
-                    }, void 0, true, {
+                                lineNumber: 85,
+                                columnNumber: 11
+                            }, void 0)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Banners/HomeBanner.js",
+                            lineNumber: 77,
+                            columnNumber: 17
+                        }, void 0),
+                        className: "bg-teal-600 hover:bg-teal-700 text-white px-6 h-full rounded-r-2xl rounded-l-none py-6 flex items-center gap-2"
+                    }, void 0, false, {
                         fileName: "[project]/src/components/Banners/HomeBanner.js",
-                        lineNumber: 74,
+                        lineNumber: 75,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                lineNumber: 35,
+                lineNumber: 36,
                 columnNumber: 1
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -292,58 +292,57 @@ const HomeBanner = ()=>{
                                     children: stat.icon
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                    lineNumber: 92,
+                                    lineNumber: 95,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-white text-2xl font-semibold",
+                                            className: "text-2xl font-semibold",
                                             children: stat.number
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                            lineNumber: 94,
+                                            lineNumber: 97,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-300",
                                             children: stat.label
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                            lineNumber: 95,
+                                            lineNumber: 98,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Banners/HomeBanner.js",
-                                    lineNumber: 93,
+                                    lineNumber: 96,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, index, true, {
                             fileName: "[project]/src/components/Banners/HomeBanner.js",
-                            lineNumber: 91,
+                            lineNumber: 94,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Banners/HomeBanner.js",
-                    lineNumber: 89,
+                    lineNumber: 92,
                     columnNumber: 3
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                lineNumber: 88,
+                lineNumber: 91,
                 columnNumber: 1
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Brand$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/Banners/HomeBanner.js",
-                lineNumber: 101,
+                lineNumber: 104,
                 columnNumber: 1
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Banners/HomeBanner.js",
-        lineNumber: 20,
+        lineNumber: 21,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

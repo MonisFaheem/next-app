@@ -2,6 +2,7 @@
 import { linkList } from "@/constant/linkList.js";
 import Link from "next/link";
 import React from "react";
+import CustomButton from "../CustomButton";
 // import {ICONS} from '@/utils/getIcons';
 
  const NavList = () => {
@@ -11,7 +12,7 @@ import React from "react";
 // const navClass = `navlist ${mobile ? "mobile" : "desktop"} ${mobile && isOpen ? "open" : ""} ${horizontal ? "horizontal" : ""}`;
 
   return (
-    <nav className='flex justify-center w-full py-4'>
+    <nav className='flex justify-center w-full py-4 text-2xl'>
       <ol className="flex gap-8">
         {linkList.map((data, ind) => (
           <li key={ind}>

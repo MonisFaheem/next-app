@@ -54,10 +54,12 @@ __turbopack_context__.s({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tb$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/tb/index.mjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/bi/index.mjs [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$lu$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/lu/index.mjs [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/md/index.mjs [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/io5/index.mjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CustomButton$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/CustomButton.js [app-rsc] (ecmascript)");
+;
 ;
 ;
 ;
@@ -118,11 +120,11 @@ const HomeCard = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "font-bold text-5xl mb-1",
+                        className: "font-bold text-black text-5xl mb-1",
                         children: "Recent Jobs Available"
                     }, void 0, false, {
                         fileName: "[project]/src/components/HomeCard.js",
-                        lineNumber: 58,
+                        lineNumber: 59,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -130,37 +132,36 @@ const HomeCard = ()=>{
                         children: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, perspiciatis?"
                     }, void 0, false, {
                         fileName: "[project]/src/components/HomeCard.js",
-                        lineNumber: 59,
+                        lineNumber: 60,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/HomeCard.js",
-                lineNumber: 57,
+                lineNumber: 58,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-end mb-4",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors",
-                    children: "View All"
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CustomButton$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    title: "View all"
                 }, void 0, false, {
                     fileName: "[project]/src/components/HomeCard.js",
-                    lineNumber: 64,
+                    lineNumber: 65,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/HomeCard.js",
-                lineNumber: 63,
+                lineNumber: 64,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col gap-8",
+                className: "flex flex-col gap-6",
                 children: jobs.map((job)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-full bg-white mx-auto rounded-2xl shadow-sm p-6 flex flex-col sm:flex-row justify-between items-center gap-4",
+                        className: "w-full bg-white mx-auto rounded-2xl h-55 shadow-sm p-6 flex flex-col sm:flex-row justify-between items-center gap-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-start gap-4 w-full sm:w-auto",
+                                className: "flex items-start w-full sm:w-auto",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -170,12 +171,12 @@ const HomeCard = ()=>{
                                             height: 60
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/HomeCard.js",
-                                            lineNumber: 73,
+                                            lineNumber: 72,
                                             columnNumber: 8
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomeCard.js",
-                                        lineNumber: 73,
+                                        lineNumber: 72,
                                         columnNumber: 3
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -185,7 +186,7 @@ const HomeCard = ()=>{
                                                 children: job.time
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomeCard.js",
-                                                lineNumber: 77,
+                                                lineNumber: 76,
                                                 columnNumber: 5
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -193,7 +194,7 @@ const HomeCard = ()=>{
                                                 children: job.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomeCard.js",
-                                                lineNumber: 78,
+                                                lineNumber: 77,
                                                 columnNumber: 5
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -201,7 +202,7 @@ const HomeCard = ()=>{
                                                 children: job.company
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/HomeCard.js",
-                                                lineNumber: 79,
+                                                lineNumber: 78,
                                                 columnNumber: 5
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -214,14 +215,14 @@ const HomeCard = ()=>{
                                                                 className: "text-teal-600 text-[22px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomeCard.js",
-                                                                lineNumber: 81,
+                                                                lineNumber: 80,
                                                                 columnNumber: 48
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             job.category
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/HomeCard.js",
-                                                        lineNumber: 81,
+                                                        lineNumber: 80,
                                                         columnNumber: 7
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -231,14 +232,14 @@ const HomeCard = ()=>{
                                                                 className: "text-teal-600 text-[22px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomeCard.js",
-                                                                lineNumber: 82,
+                                                                lineNumber: 81,
                                                                 columnNumber: 48
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             job.type
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/HomeCard.js",
-                                                        lineNumber: 82,
+                                                        lineNumber: 81,
                                                         columnNumber: 7
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -248,14 +249,14 @@ const HomeCard = ()=>{
                                                                 className: "text-teal-600 text-[22px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomeCard.js",
-                                                                lineNumber: 83,
+                                                                lineNumber: 82,
                                                                 columnNumber: 48
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             job.salary
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/HomeCard.js",
-                                                        lineNumber: 83,
+                                                        lineNumber: 82,
                                                         columnNumber: 7
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -265,78 +266,79 @@ const HomeCard = ()=>{
                                                                 className: "text-teal-600 text-[22px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/HomeCard.js",
-                                                                lineNumber: 84,
+                                                                lineNumber: 83,
                                                                 columnNumber: 48
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             job.location
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/HomeCard.js",
-                                                        lineNumber: 84,
+                                                        lineNumber: 83,
                                                         columnNumber: 7
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/HomeCard.js",
-                                                lineNumber: 80,
+                                                lineNumber: 79,
                                                 columnNumber: 5
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/HomeCard.js",
-                                        lineNumber: 76,
+                                        lineNumber: 75,
                                         columnNumber: 3
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/HomeCard.js",
-                                lineNumber: 72,
+                                lineNumber: 71,
                                 columnNumber: 1
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-col justify-between items-end gap-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "text-gray-500 hover:text-gray-700",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$tb$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["TbBadge"], {}, void 0, false, {
+                                        className: "text-gray-500 mb-12 hover:text-gray-700",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BiBookmarkPlus"], {
+                                            size: 26
+                                        }, void 0, false, {
                                             fileName: "[project]/src/components/HomeCard.js",
-                                            lineNumber: 91,
-                                            columnNumber: 57
+                                            lineNumber: 90,
+                                            columnNumber: 63
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomeCard.js",
-                                        lineNumber: 91,
+                                        lineNumber: 90,
                                         columnNumber: 3
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors",
-                                        children: "Job details"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CustomButton$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                        title: "Job Details"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HomeCard.js",
-                                        lineNumber: 92,
+                                        lineNumber: 91,
                                         columnNumber: 3
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/HomeCard.js",
-                                lineNumber: 90,
+                                lineNumber: 89,
                                 columnNumber: 1
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, job.id, true, {
                         fileName: "[project]/src/components/HomeCard.js",
-                        lineNumber: 70,
+                        lineNumber: 69,
                         columnNumber: 1
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/src/components/HomeCard.js",
-                lineNumber: 68,
+                lineNumber: 67,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/HomeCard.js",
-        lineNumber: 56,
+        lineNumber: 57,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -359,56 +361,48 @@ function BrowseByCategory() {
         {
             id: 1,
             title: "Agriculture",
-            link: "/",
             logo: "/icons/category1.svg",
             jobs: 1254
         },
         {
             id: 2,
             title: "Metal Production",
-            link: "/",
             logo: "/icons/category2.svg",
             jobs: 816
         },
         {
             id: 3,
             title: "Commerce",
-            link: "/",
             logo: "/icons/category4.svg",
             jobs: 2082
         },
         {
             id: 4,
             title: "Construction",
-            link: "/",
             logo: "/icons/category3.svg",
             jobs: 1520
         },
         {
             id: 5,
             title: "Hotels & Tourism",
-            link: "/",
             logo: "/icons/category5.svg",
             jobs: 1022
         },
         {
             id: 6,
             title: "Education",
-            link: "/",
             logo: "/icons/category6.svg",
             jobs: 1496
         },
         {
             id: 7,
             title: "Financial Services",
-            link: "/",
             logo: "/icons/category8.svg",
             jobs: 1529
         },
         {
             id: 8,
             title: "Transport",
-            link: "/",
             logo: "/icons/category7.svg",
             jobs: 1244
         }
@@ -426,7 +420,7 @@ function BrowseByCategory() {
                             children: "Browse by Category"
                         }, void 0, false, {
                             fileName: "[project]/src/components/BrowseByCategory.js",
-                            lineNumber: 69,
+                            lineNumber: 61,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -434,19 +428,18 @@ function BrowseByCategory() {
                             children: "At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum id scel..."
                         }, void 0, false, {
                             fileName: "[project]/src/components/BrowseByCategory.js",
-                            lineNumber: 70,
+                            lineNumber: 62,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/BrowseByCategory.js",
-                    lineNumber: 68,
+                    lineNumber: 60,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6  w-full",
-                    children: categories.map((cat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: cat.link,
+                    children: categories.map((cat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             className: "bg-white rounded-2xl p-8 min-h-[250px] shadow-md flex flex-col items-center justify-center hover:shadow-lg transition w-full",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -458,12 +451,12 @@ function BrowseByCategory() {
                                         className: "object-contain"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/BrowseByCategory.js",
-                                        lineNumber: 86,
+                                        lineNumber: 77,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/BrowseByCategory.js",
-                                    lineNumber: 85,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -471,7 +464,7 @@ function BrowseByCategory() {
                                     children: cat.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/BrowseByCategory.js",
-                                    lineNumber: 95,
+                                    lineNumber: 86,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -482,29 +475,29 @@ function BrowseByCategory() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/BrowseByCategory.js",
-                                    lineNumber: 98,
+                                    lineNumber: 89,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, cat.id, true, {
                             fileName: "[project]/src/components/BrowseByCategory.js",
-                            lineNumber: 79,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/BrowseByCategory.js",
-                    lineNumber: 77,
+                    lineNumber: 69,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/BrowseByCategory.js",
-            lineNumber: 67,
+            lineNumber: 59,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/BrowseByCategory.js",
-        lineNumber: 65,
+        lineNumber: 57,
         columnNumber: 7
     }, this);
 }

@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import { TbBadge } from "react-icons/tb";
+import { BiBookmarkPlus } from "react-icons/bi";
 import { LuBriefcaseBusiness,LuWallet } from "react-icons/lu";
 import { MdAccessTime } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
+import CustomButton from './CustomButton';
 const HomeCard = () => {
   const jobs =[
     {
@@ -55,21 +56,19 @@ const HomeCard = () => {
 
     <div className='px-4 sm:px-6 lg:px-8 mb-12'>
       <div>
-      <h1 className="font-bold text-5xl mb-1">Recent Jobs Available</h1>
+      <h1 className="font-bold text-black text-5xl mb-1">Recent Jobs Available</h1>
       <p className="text-sm text-gray-600">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, perspiciatis?
       </p>
     </div>
       <div className="flex justify-end mb-4">
-    <button className="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors">
-      View All
-    </button>
+    <CustomButton title='View all' />
   </div>
-      <div className='flex flex-col gap-8'>
+      <div className='flex flex-col gap-6'>
       {jobs.map((job)=>(
-<div key={job.id} className='w-full bg-white mx-auto rounded-2xl shadow-sm p-6 flex flex-col sm:flex-row justify-between items-center gap-4'>
+<div key={job.id} className='w-full bg-white mx-auto rounded-2xl h-55 shadow-sm p-6 flex flex-col sm:flex-row justify-between items-center gap-4'>
       {/* left side */}
-<div className='flex items-start gap-4 w-full sm:w-auto'>
+<div className='flex items-start w-full sm:w-auto'>
   <div><Image src={job.logo}alt='company logo'
   width={60}
   height={60}/></div>
@@ -88,8 +87,8 @@ const HomeCard = () => {
 
 {/* right side */}
 <div className='flex flex-col justify-between items-end gap-4'>
-  <button className='text-gray-500 hover:text-gray-700'><TbBadge /></button>
-  <button className='px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors'>Job details</button>
+  <button className='text-gray-500 mb-12 hover:text-gray-700'><BiBookmarkPlus size={26} /></button>
+  <CustomButton title='Job Details'/>
 </div>
 
     </div>
