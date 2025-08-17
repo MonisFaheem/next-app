@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/monis/Desktop/next--app/src/constant/linkList.js"],"sourcesContent":["export const linkList = [\r\n   {\r\n    id: 0,\r\n    title: \"Home\",\r\n    link: \"/\",\r\n    children: [],\r\n  },\r\n {\r\n    id: 0,\r\n    title: \"Jobs\",\r\n    link: \"/\",\r\n    children: [],\r\n  },\r\n\r\n   {\r\n    id: 0,\r\n    title: \"About Us\",\r\n    link: \"/\",\r\n    children: [],\r\n  },\r\n\r\n   {\r\n    id: 0,\r\n    title: \"Contact Us\",\r\n    link: \"/\",\r\n    children: [],\r\n  },\r\n\r\n\r\n\r\n\r\n]"],"names":[],"mappings":";;;AAAO,MAAM,WAAW;IACrB;QACC,IAAI;QACJ,OAAO;QACP,MAAM;QACN,UAAU,EAAE;IACd;IACD;QACG,IAAI;QACJ,OAAO;QACP,MAAM;QACN,UAAU,EAAE;IACd;IAEC;QACC,IAAI;QACJ,OAAO;QACP,MAAM;QACN,UAAU,EAAE;IACd;IAEC;QACC,IAAI;QACJ,OAAO;QACP,MAAM;QACN,UAAU,EAAE;IACd;CAKD","debugId":null}}]
-}
