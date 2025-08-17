@@ -55,12 +55,12 @@ const HomeCard = () => {
   return (
 
     <div className='px-4 sm:px-6 lg:px-8 mb-12'>
-      <div>
+      {/* <div>
       <h1 className="font-bold text-black text-5xl mb-1">Recent Jobs Available</h1>
       <p className="text-sm text-gray-600">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, perspiciatis?
       </p>
-    </div>
+    </div> */}
       <div className="flex justify-end mb-4">
     <CustomButton title='View all' />
   </div>

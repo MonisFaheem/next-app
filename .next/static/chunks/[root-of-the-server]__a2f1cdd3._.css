@@ -559,8 +559,16 @@
 @layer components;
 
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
+
   .relative {
     position: relative;
+  }
+
+  .right-8 {
+    right: calc(var(--spacing) * 8);
   }
 
   .right-\[50\%\] {
@@ -609,10 +617,6 @@
     margin-right: calc(var(--spacing) * 2);
   }
 
-  .mr-6 {
-    margin-right: calc(var(--spacing) * 6);
-  }
-
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
   }
@@ -631,10 +635,6 @@
 
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
-  }
-
-  .mb-10 {
-    margin-bottom: calc(var(--spacing) * 10);
   }
 
   .mb-12 {
@@ -875,6 +875,10 @@
     padding-inline: calc(var(--spacing) * 6);
   }
 
+  .px-8 {
+    padding-inline: calc(var(--spacing) * 8);
+  }
+
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
@@ -905,6 +909,10 @@
 
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
+  }
+
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
   }
 
   .text-center {
@@ -1038,12 +1046,6 @@
   @media (hover: hover) {
     .hover\:bg-teal-700:hover {
       background-color: var(--color-teal-700);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-transparent:hover {
-      background-color: rgba(0, 0, 0, 0);
     }
   }
 

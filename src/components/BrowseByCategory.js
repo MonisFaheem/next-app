@@ -54,17 +54,8 @@ const categories = [
 ];
 
   return (
-      <section className="bg-[#E6F2F0] py-12 w-screen relative left-[50%] right-[50%] -mx-[50vw]">
-      {/* Heading */}
+      <div className="py-12 w-screen relative left-[50%] right-[50%] -mx-[50vw]">
       <div className="max-w-7xl mx-auto px-4">
-      <div className="text-center mb-10">
-        <h2 className="text-4xl text-black font-bold mb-2">Browse by Category</h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
-          At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit
-          a massa elementum id scel...
-        </p>
-      </div>
-
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6  w-full">
         {categories.map((cat) => (
@@ -93,6 +84,6 @@ const categories = [
         ))}
       </div>
       </div>
-    </section>
+    </div>
   );
 }
