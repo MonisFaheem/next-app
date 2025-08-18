@@ -2,6 +2,7 @@ import HomeBanner from "@/components/Banners/HomeBanner";
 import HomeCard from "@/components/HomeCard";
 import Image from "next/image";
 import BrowseByCategory from "@/components/BrowseByCategory";
+import Stats from "@/components/Stats";
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
         </p>
         </div>
         <BrowseByCategory/>
+      </section>
+      <section>
+        <Stats/>
       </section>
     </div>
   );
