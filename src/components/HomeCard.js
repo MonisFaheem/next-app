@@ -66,9 +66,6 @@ const HomeCard = () => {
   return (
 
     <div className='px-4 sm:px-6 lg:px-8 mb-12'>
-      <div className="flex justify-end mb-4">
-    <CustomButton title='View all' />
-  </div>
       <div className='flex flex-col gap-6'>
       {jobs.map((job)=>(
 <div
