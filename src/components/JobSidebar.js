@@ -1,7 +1,9 @@
 'use client';
 import React, { useState } from 'react'
 import { FiSearch, FiMapPin } from "react-icons/fi";
-import ReactSlider from 'react-slider';
+// import ReactSlider from 'react-slider';
+import * as Slider from "@radix-ui/react-slider";
+
 import Tags from './Tags';
 const JobSidebar = () => {
 const [values, setValues] = useState([0, 9999])
@@ -123,17 +125,18 @@ const datePost=[
 
 <div>
   <h3 className='font-semibold mb-3 text-lg'>Salary</h3>
-  <ReactSlider
-  className='w-full h-2 bg-gray-200 rounded-lg'
-  thumbClassName='"w-5 h-5 bg-teal-600 rounded-full cursor-pointer'
-  trackClassName='h-2 bg-teal-600 rounded-lg'
-  min={0}
-  max={9999}
-  step={100}
-  value={values}
-  onChange={(val) =>setValues(val)}
-   pearling
-        minDistance={500}/>
+<Slider.Root
+  className="relative flex items-center w-full h-5"
+  defaultValue={[0]}
+  max={100}
+  step={1}
+>
+  <Slider.Track className="bg-gray-200 relative flex-1 h-1 rounded">
+    <Slider.Range className="absolute bg-blue-500 h-1 rounded" />
+  </Slider.Track>
+  <Slider.Thumb className="block w-4 h-4 bg-blue-500 rounded-full" />
+</Slider.Root>
+
   <div>
     <p className=' text-[1rem]'>Salary: ${values[0]} - ${values[1]}</p>
     </div>

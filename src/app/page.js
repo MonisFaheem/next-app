@@ -6,6 +6,7 @@ import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
 import CustomButton from "@/components/CustomButton";
 import BlogSection from "@/components/BlogSection";
+import Brand from "@/components/Brand";
 
 export default function Home() {
   return (
