@@ -4,9 +4,9 @@ import CustomButton from '../CustomButton'
 
 const Header = () => {
   return (
-    <div>
+    <header className='absolute top-0 left-0 w-full z-30'>
       <NavList/>
-    </div>
+    </header>
   )
 }
 

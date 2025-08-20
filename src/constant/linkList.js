@@ -8,7 +8,7 @@ export const linkList = [
  {
     id: 0,
     title: "Jobs",
-    link: "/",
+    link: "/jobs",
     children: [],
   },
 
