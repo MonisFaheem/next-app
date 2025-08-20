@@ -12,7 +12,7 @@ const brands =[
 ]
 
   return (
-    <div className='w-full overflow-hidden mt-20 justify-center flex mx-auto bg-black h-20'>
+    <div className='w-full overflow-hidden  justify-center flex mx-auto bg-black h-36'>
       <div className='flex animate-scroll gap-12'>
         {[...brands, ...brands].map((brand, i)=>(
           <Image

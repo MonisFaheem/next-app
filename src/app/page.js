@@ -2,11 +2,15 @@ import HomeBanner from "@/components/Banners/HomeBanner";
 import HomeCard from "@/components/HomeCard";
 import Image from "next/image";
 import BrowseByCategory from "@/components/BrowseByCategory";
+import Brand from "@/components/Brand";
 
 export default function Home() {
   return (
     <div >
       <HomeBanner/>
+      <section>
+      <Brand/>
+      </section>
       <section className="mt-10 px-10">
         <div className="px-8">
         <h1 className="font-bold text-black text-5xl mb-1">Recent Jobs Availaible</h1>
