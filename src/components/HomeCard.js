@@ -61,9 +61,9 @@ const HomeCard = () => {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, perspiciatis?
       </p>
     </div> */}
-      <div className="flex justify-end mb-4">
+      {/* <div className="flex justify-end mb-4">
     <CustomButton title='View all' />
-  </div>
+  </div> */}
       <div className='flex flex-col gap-6'>
       {jobs.map((job)=>(
 <div key={job.id} className='w-full bg-white mx-auto rounded-2xl h-55 shadow-sm p-6 flex flex-col sm:flex-row justify-between items-center gap-4'>
