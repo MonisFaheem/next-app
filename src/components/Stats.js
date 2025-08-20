@@ -26,7 +26,7 @@ const Stats = () => {
         {stats.map((stat) => (
           <div key={stat.id}>
             <h2 className="text-3xl font-bold text-teal-600">{stat.value}</h2>
-            <p className="text-lg font-semibold mt-2">{stat.label}</p>
+            <p className="text-lg text-black font-semibold mt-2">{stat.label}</p>
             <p className="text-gray-500 mt-2">
               At eu lobortis pretium tincidunt amet lacus ut aenean aliquet.
               Blandit a massa elementum id scelerisque rhoncus…
