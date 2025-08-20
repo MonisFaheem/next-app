@@ -2,8 +2,10 @@
 import React from 'react'
 import { useState } from 'react';
 import { IoBagHandle } from "react-icons/io5";
-import Brand from '../Brand';
+import Image from 'next/image';
 import CustomButton from '../CustomButton';
+
+
 
 const HomeBanner = () => {
 const stats=[
@@ -18,20 +20,19 @@ const stats=[
   const [location, setLocation] = useState('');
   const [category, setCategory] = useState('');
   return (
-    <section className='w-full flex flex-col items-center justify-center mt-24'>
+    <>
+    <section className='relative h-[80vh] w-full'>
+       <Image
+        src="/images/home-bg.jpg"
+        alt="Banner"
+        fill
+        priority
+        className="object-cover blur-sm scale-105"
+      />
+       <div className="absolute inset-0 bg-black/40"></div>
+       <div className='relative z-10 w-full flex flex-col items-center px-4 pt-32'>
       <h1 className='font-extrabold  text-6xl mb-5'>Find Your Dream Job Today!</h1>
       <p className='text-lg max-w-2xl mb-4'>connecting talent with opportunity: Your Gateaway tp Career Success.</p>
-{/* <div className='flex items-center w-full bg-white rounded-full max-w-4xl mx-auto overflow-hidden'>
-  <input className='flex-1 px-3 py-4 text-gray-800 focus:outline-none' type="text"
-  placeholder='Job title' />
-   <div className="w-px h-8 bg-gray-800" ></div>
-
-  <select  className="px-4 py-3 text-gray-700 bg-transparent focus:outline-none"
-   name="" id=""></select>
-  <select name="" id=""
-  className="px-4 py-3 text-gray-700 bg-transparent focus:outline-none"></select>
-  <button>ok</button>
-</div> */}
 
 <div className="flex items-center bg-white rounded-2xl shadow-md overflow-hidden max-w-4xl mx-auto mt-5">
       {/* Job Title Input */}
@@ -101,8 +102,9 @@ const stats=[
     ))}
   </div>
 </div>
-<Brand/>
+</div>
     </section>
+    </>
   )
 }
 
