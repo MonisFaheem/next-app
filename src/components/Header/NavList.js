@@ -12,7 +12,7 @@ import CustomButton from "../CustomButton";
 // const navClass = `navlist ${mobile ? "mobile" : "desktop"} ${mobile && isOpen ? "open" : ""} ${horizontal ? "horizontal" : ""}`;
 
   return (
-  <nav className="flex justify-center items-center  py-6 text-2xl leading-tight">
+  <nav className="flex justify-center items-center  py-6 text-lg leading-tight">
     <ol className="flex gap-8 m-0 p-0">
       {linkList.map((data, ind) => (
         <li key={ind}>

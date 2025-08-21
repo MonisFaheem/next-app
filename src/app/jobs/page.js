@@ -1,4 +1,4 @@
-import JobPageBanner from '@/components/Banners/JobPageBanner'
+import PageBanner from '@/components/Banners/PageBanner'
 import JobPage from '@/components/JobPage'
 import JobSidebar from '@/components/JobSidebar'
 import React from 'react'
@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       {/* <JobSidebar/> */}
-      <JobPageBanner/>
+      <PageBanner title='Jobs'/>
       <JobPage/>
     </div>
   )
