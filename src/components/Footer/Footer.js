@@ -43,7 +43,6 @@ const Footer = () => {
           </div>
         </div>
          <div className='flex justify-between items-center mt-8 pt-4'>
-        <p> © Copyright Job Portal 2024. Designed by Figma guru.</p>
         <ul className='flex gap-6'>
         <li className='hover:underline cursor-pointer'>Privacy Policy</li>
         <li className='hover:underline cursor-pointer'>Terms & Conditions</li>

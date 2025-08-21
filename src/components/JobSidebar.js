@@ -3,10 +3,11 @@ import React, { useState } from 'react'
 import { FiSearch, FiMapPin } from "react-icons/fi";
 // import ReactSlider from 'react-slider';
 import * as Slider from "@radix-ui/react-slider";
+import Image from 'next/image';
 
 import Tags from './Tags';
 const JobSidebar = () => {
-const [values, setValues] = useState([0, 9999])
+const [values, setValues] = useState([0, 999])
 
 const tagsData =[
   {id: 1, name: 'engineering'},
@@ -127,14 +128,15 @@ const datePost=[
   <h3 className='font-semibold mb-3 text-lg'>Salary</h3>
 <Slider.Root
   className="relative flex items-center w-full h-5"
-  defaultValue={[0]}
-  max={100}
-  step={1}
+  value = {values}
+  onValueChange={(val) => setValues([...val].sort((a, b) => a - b))}
+  max={999}
+  step={100}
 >
-  <Slider.Track className="bg-gray-200 relative flex-1 h-1 rounded">
-    <Slider.Range className="absolute bg-blue-500 h-1 rounded" />
+  <Slider.Track className="bg-teal-600 relative flex-1 h-1 rounded">
+    <Slider.Range className="absolute bg-gray-200 h-1 rounded" />
   </Slider.Track>
-  <Slider.Thumb className="block w-4 h-4 bg-blue-500 rounded-full" />
+  <Slider.Thumb className="block w-4 h-4 bg-teal-600 rounded-full border-teal-600" />
 </Slider.Root>
 
   <div>
@@ -149,10 +151,22 @@ const datePost=[
 </div>
 
     </div>
-<div className='w-80 h-96 bg-black px-4 mt-4 rounded-xl'>
-<h1 className='font-bold text-3xl pt-3'>WE ARE HIRING</h1>
-<h2 className='font-semibold text-2xl pt-2'>Apply Today!</h2>
-</div>
+
+<div className="relative w-80 h-96 px-4 mt-4 rounded-xl overflow-hidden">
+      {/* Background image */}
+      <Image
+        src="/images/StateHero.png"
+        alt="Hiring background"
+        fill
+        className="object-cover"
+      />
+
+      {/* Overlay content */}
+      <div className="relative z-10 text-white">
+        <h1 className="font-bold text-3xl pt-3">WE ARE HIRING</h1>
+        <h2 className="font-semibold text-2xl pt-2">Apply Today!</h2>
+      </div>
+    </div>
 
     </>
   )

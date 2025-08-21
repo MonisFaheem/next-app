@@ -24,7 +24,7 @@ import CustomButton from "../CustomButton";
     <div className="absolute right-8 flex">
       <CustomButton
         title="Login"
-        className="bg-transparent text-gray-700 hover:bg-transparent"
+        className="bg-transparent hover:bg-transparent"
       />
       <CustomButton
         title="Register"
