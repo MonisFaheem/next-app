@@ -6,23 +6,23 @@ export const linkList = [
     children: [],
   },
  {
-    id: 0,
+    id: 1,
     title: "Jobs",
     link: "/jobs",
     children: [],
   },
 
    {
-    id: 0,
+    id: 2,
     title: "About Us",
     link: "/",
     children: [],
   },
 
    {
-    id: 0,
+    id: 3,
     title: "Contact Us",
-    link: "/",
+    link: "/contact",
     children: [],
   },
 
