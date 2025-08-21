@@ -1,9 +1,5 @@
-import PageBanner from '@/components/Banners/PageBanner'
 import React from 'react'
-import { FiPhone } from "react-icons/fi";
-import { FiMail } from "react-icons/fi";
 import PageBanner from '@/components/Banners/PageBanner';
-import React from 'react';
 import { FiPhone, FiMail } from "react-icons/fi";
 import { MdAccessTime } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
