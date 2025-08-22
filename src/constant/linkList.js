@@ -15,7 +15,7 @@ export const linkList = [
    {
     id: 2,
     title: "About Us",
-    link: "/",
+    link: "/about",
     children: [],
   },
 
