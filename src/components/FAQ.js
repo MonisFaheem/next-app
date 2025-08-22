@@ -14,10 +14,10 @@ const [openId, setOpenId] = useState(null);
   };
 
   return (
-    <section className="max-w-3xl mx-auto px-4 py-12 text-black">
+    <section className="max-w-7xl mx-auto px-4 py-12 text-black">
       {/* Heading */}
-      <h2 className="text-3xl font-bold text-center">Frequently Asked Questions</h2>
-      <p className="text-center text-gray-500 mt-2">
+      <h2 className="text-4xl font-bold text-center">Frequently Asked Questions</h2>
+      <p className="text-center text-xl text-gray-500 mt-2">
         At eu lobortis pretium tincidunt amet lacus ut aenean aliquet
       </p>
 
@@ -45,7 +45,7 @@ const [openId, setOpenId] = useState(null);
                   </span>
                   {/* Question */}
                   <h3
-                    className={`text-lg font-bold ${
+                    className={`text-xl font-bold ${
                       isOpen ? "text-teal-600" : "text-gray-800"
                     }`}
                   >
@@ -62,7 +62,7 @@ const [openId, setOpenId] = useState(null);
               </div>
 
               {/* Answer */}
-              {isOpen && <p className="mt-3 ml-8 text-gray-600">{faq.answer}</p>}
+              {isOpen && <p className="mt-3 ml-8 text-gray-600 text-lg">{faq.answer}</p>}
             </div>
           );
         })}

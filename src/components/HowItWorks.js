@@ -31,8 +31,8 @@ function HowItWorks() {
 
   return (
     <section className="py-12 text-center text-black">
-      <h2 className="text-3xl font-bold">How it works</h2>
-      <p className="text-gray-600 mt-2 max-w-xl mx-auto">
+      <h2 className="text-4xl font-bold">How it works</h2>
+      <p className="text-gray-600 text-xl mt-2 max-w-xl mx-auto">
         At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit a massa elementum id scelerisque rhoncus.
       </p>
 
