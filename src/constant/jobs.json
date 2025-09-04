@@ -1,0 +1,134 @@
+[
+    {
+    "id": 1,
+    "logo": "/images/logo.png",
+    "time": "10 mins ago",
+    "title": "Forward Security Director",
+    "company": "Bauch, Schuppe and Schulist Co",
+   " category": "Hotel & Tourism",
+    "type": "Full time",
+    "salary": "$40000-$42000",
+    "location": "New York, USA",
+    "experience": "5 Years",
+    "degree": "Master",
+    "description": "Nunc sed id purus. Nibh aci faucibus proin lacus tristique...",
+    "responsibilities": [
+      "Et nunc ut tempus duis nisl sed massa.",
+      "Cras facilisis dignissim augue lorem.",
+      "Ornare varius faucibus nisi vitae vitae cras ornare."
+    ],
+    "skills": [
+      "Teamwork",
+      "Problem-solving",
+      "Communication",
+      "Adaptability"
+    ],
+    "tags": ["Full time", "Commerce", "New York", "Corporate", "Location"]
+  },
+   {
+    "id": 2,
+    "logo": "/images/logo.png",
+    "time": "10 mins ago",
+    "title": "Forward Security Director",
+    "company": "Bauch, Schuppe and Schulist Co",
+   " category": "Hotel & Tourism",
+    "type": "Full time",
+    "salary": "$40000-$42000",
+    "location": "New York, USA",
+    "experience": "5 Years",
+    "degree": "Master",
+    "description": "Nunc sed id purus. Nibh aci faucibus proin lacus tristique...",
+    "responsibilities": [
+      "Et nunc ut tempus duis nisl sed massa.",
+      "Cras facilisis dignissim augue lorem.",
+      "Ornare varius faucibus nisi vitae vitae cras ornare."
+    ],
+    "skills": [
+      "Teamwork",
+      "Problem-solving",
+      "Communication",
+      "Adaptability"
+    ],
+    "tags": ["Full time", "Commerce", "New York", "Corporate", "Location"]
+  },
+   {
+    "id": 3,
+    "logo": "/images/logo.png",
+    "time": "10 mins ago",
+    "title": "Forward Security Director",
+    "company": "Bauch, Schuppe and Schulist Co",
+   " category": "Hotel & Tourism",
+    "type": "Full time",
+    "salary": "$40000-$42000",
+    "location": "New York, USA",
+    "experience": "5 Years",
+    "degree": "Master",
+    "description": "Nunc sed id purus. Nibh aci faucibus proin lacus tristique...",
+    "responsibilities": [
+      "Et nunc ut tempus duis nisl sed massa.",
+      "Cras facilisis dignissim augue lorem.",
+      "Ornare varius faucibus nisi vitae vitae cras ornare."
+    ],
+    "skills": [
+      "Teamwork",
+      "Problem-solving",
+      "Communication",
+      "Adaptability"
+    ],
+    "tags": ["Full time", "Commerce", "New York", "Corporate", "Location"]
+    
+  },
+   {
+    "id": 4,
+    "logo": "/images/logo.png",
+    "time": "10 mins ago",
+    "title": "Forward Security Director",
+    "company": "Bauch, Schuppe and Schulist Co",
+   " category": "Hotel & Tourism",
+    "type": "Full time",
+    "salary": "$40000-$42000",
+    "location": "New York, USA",
+    "experience": "5 Years",
+    "degree": "Master",
+    "description": "Nunc sed id purus. Nibh aci faucibus proin lacus tristique...",
+    "responsibilities": [
+      "Et nunc ut tempus duis nisl sed massa.",
+      "Cras facilisis dignissim augue lorem.",
+      "Ornare varius faucibus nisi vitae vitae cras ornare."
+    ],
+    "skills": [
+      "Teamwork",
+      "Problem-solving",
+      "Communication",
+      "Adaptability"
+    ],
+    "tags": ["Full time", "Commerce", "New York", "Corporate", "Location"]
+  },
+   {
+    "id": 5,
+    "logo": "/images/logo.png",
+    "time": "10 mins ago",
+    "title": "Forward Security Director",
+    "company": "Bauch, Schuppe and Schulist Co",
+   " category": "Hotel & Tourism",
+    "type": "Full time",
+    "salary": "$40000-$42000",
+    "location": "New York, USA",
+    "experience": "5 Years",
+    "degree": "Master",
+    "description": "Nunc sed id purus. Nibh aci faucibus proin lacus tristique...",
+    "responsibilities": [
+      "Et nunc ut tempus duis nisl sed massa.",
+      "Cras facilisis dignissim augue lorem.",
+      "Ornare varius faucibus nisi vitae vitae cras ornare."
+    ],
+    "skills": [
+      "Teamwork",
+      "Problem-solving",
+      "Communication",
+      "Adaptability"
+    ],
+    "tags": ["Full time", "Commerce", "New York", "Corporate", "Location"]
+  }
+  
+  ]

@@ -1,9 +1,9 @@
 'use client';
 import { linkList } from "@/constant/linkList.js";
-import Link from "next/link";
 import React from "react";
 import CustomButton from "../CustomButton";
 // import {ICONS} from '@/utils/getIcons';
+import Link from "next/link";
 
  const NavList = () => {
 //    const handleClick = () => {
