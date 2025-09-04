@@ -5,64 +5,66 @@ import { LuBriefcaseBusiness,LuWallet } from "react-icons/lu";
 import { MdAccessTime } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import CustomButton from './CustomButton';
+import jobs from '../constant/jobs.json'
+import Link from 'next/link';
 const HomeCard = () => {
-  const jobs =[
-    {
-    id: 1,
-    logo: "/images/logo.png",
-    time: "10 mins ago",
-    title: "Forward Security Director",
-    company: "Bauch, Schuppe and Schulist Co",
-    category: "Hotel & Tourism",
-    type: "Full time",
-    salary: "$40000-$42000",
-    location: "New York, USA"
-  },
-  {
-    id: 2,
-    logo: "/images/logo.png",
-    time: "10 mins ago",
-    title: "Forward Security Director",
-    company: "Bauch, Schuppe and Schulist Co",
-    category: "Hotel & Tourism",
-    type: "Full time",
-    salary: "$40000-$42000",
-    location: "New York, USA"
-  },
-  {
-    id: 3,
-    logo: "/images/logo.png",
-    time: "10 mins ago",
-    title: "Forward Security Director",
-    company: "Bauch, Schuppe and Schulist Co",
-    category: "Hotel & Tourism",
-    type: "Full time",
-    salary: "$40000-$42000",
-    location: "New York, USA"
-  },
-  {
-    id: 4,
-    logo: "/images/logo.png",
-    time: "10 mins ago",
-    title: "Forward Security Director",
-    company: "Bauch, Schuppe and Schulist Co",
-    category: "Hotel & Tourism",
-    type: "Full time",
-    salary: "$40000-$42000",
-    location: "New York, USA"
-  },
-  {
-    id: 5,
-    logo: "/images/logo.png",
-    time: "10 mins ago",
-    title: "Forward Security Director",
-    company: "Bauch, Schuppe and Schulist Co",
-    category: "Hotel & Tourism",
-    type: "Full time",
-    salary: "$40000-$42000",
-    location: "New York, USA"
-  },
-  ]
+  // const jobs =[
+  //   {
+  //   id: 1,
+  //   logo: "/images/logo.png",
+  //   time: "10 mins ago",
+  //   title: "Forward Security Director",
+  //   company: "Bauch, Schuppe and Schulist Co",
+  //   category: "Hotel & Tourism",
+  //   type: "Full time",
+  //   salary: "$40000-$42000",
+  //   location: "New York, USA"
+  // },
+  // {
+  //   id: 2,
+  //   logo: "/images/logo.png",
+  //   time: "10 mins ago",
+  //   title: "Forward Security Director",
+  //   company: "Bauch, Schuppe and Schulist Co",
+  //   category: "Hotel & Tourism",
+  //   type: "Full time",
+  //   salary: "$40000-$42000",
+  //   location: "New York, USA"
+  // },
+  // {
+  //   id: 3,
+  //   logo: "/images/logo.png",
+  //   time: "10 mins ago",
+  //   title: "Forward Security Director",
+  //   company: "Bauch, Schuppe and Schulist Co",
+  //   category: "Hotel & Tourism",
+  //   type: "Full time",
+  //   salary: "$40000-$42000",
+  //   location: "New York, USA"
+  // },
+  // {
+  //   id: 4,
+  //   logo: "/images/logo.png",
+  //   time: "10 mins ago",
+  //   title: "Forward Security Director",
+  //   company: "Bauch, Schuppe and Schulist Co",
+  //   category: "Hotel & Tourism",
+  //   type: "Full time",
+  //   salary: "$40000-$42000",
+  //   location: "New York, USA"
+  // },
+  // {
+  //   id: 5,
+  //   logo: "/images/logo.png",
+  //   time: "10 mins ago",
+  //   title: "Forward Security Director",
+  //   company: "Bauch, Schuppe and Schulist Co",
+  //   category: "Hotel & Tourism",
+  //   type: "Full time",
+  //   salary: "$40000-$42000",
+  //   location: "New York, USA"
+  // },
+  // ]
   return (
 
     <div className='px-4 sm:px-6 lg:px-8 mb-12'>
@@ -94,7 +96,9 @@ const HomeCard = () => {
 {/* right side */}
 <div className='flex flex-col justify-between items-end gap-4'>
   <button className='text-gray-500 mb-12 hover:text-gray-700'><BiBookmarkPlus size={26} /></button>
+  <Link href={`/jobs/${job.id}`}>
   <CustomButton title='Job Details'/>
+  </Link>
 </div>
 
     </div>
