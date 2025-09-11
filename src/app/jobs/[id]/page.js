@@ -5,6 +5,10 @@ import { LuBriefcaseBusiness, LuWallet } from "react-icons/lu";
 import { MdAccessTime } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import PageBanner from '@/components/Banners/PageBanner';
+import CustomButton from '@/components/CustomButton';
+import JobMap from '@/components/map/JobMap';
+import HomeCard from '@/components/HomeCard';
+
 
 const JobDetailPage = ({params}) => {
   const {id} = params;
@@ -13,12 +17,19 @@ const JobDetailPage = ({params}) => {
   if (!job) {
     return <p className="text-center mt-10 text-red-500">Job not found!</p>;
   }
+
+  const similarJobs = jobs.filter(
+    (j) =>
+      j.id !== job.id &&
+      j.tags.some((tag) => job.tags.includes(tag))
+  );
+
   return (
     <>
     <PageBanner title= 'Job Details'/>
     <div className="px-6 py-12 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
       {/* LEFT SECTION */}
-      <div className="lg:col-span-2 bg-white p-8 rounded-2xl shadow-md">
+      <div className="lg:col-span-2 bg-white p-8 rounded-2xl shadow-md text-black">
         {/* Header */}
         <div className="flex items-start gap-4 mb-6">
           <Image src={job.logo} alt="logo" width={70} height={70} />
@@ -81,10 +92,10 @@ const JobDetailPage = ({params}) => {
       {/* RIGHT SIDEBAR */}
       <div className="bg-white p-6 rounded-2xl shadow-md space-y-6">
         {/* Apply Button */}
-        <button className="w-full py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700">
-          Apply Job
-        </button>
-
+        <CustomButton 
+          title="Apply Job"
+          className="w-full py-3 text-white"
+          />
         {/* Job Overview */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Job Overview</h3>
@@ -100,21 +111,34 @@ const JobDetailPage = ({params}) => {
         </div>
 
         {/* Map Placeholder */}
-        <div className="h-40 bg-gray-100 rounded-lg flex items-center justify-center">
-          📍 Map Goes Here
+        <div className="h-64 w-full bg-gray-100 rounded-lg overflow-hidden">
+          <JobMap
+          latitude={job.latitude}
+          longitude={job.longitude}
+          location={job.location}
+          />
         </div>
 
         {/* Contact Form */}
-        <form className="space-y-4">
+        <form className="space-y-4 text-black">
           <input type="text" placeholder="Full Name" className="w-full p-3 border rounded-lg" />
           <input type="email" placeholder="Email Address" className="w-full p-3 border rounded-lg" />
           <input type="text" placeholder="Phone Number" className="w-full p-3 border rounded-lg" />
-          <button className="w-full py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700">
-            Send Message
-          </button>
+          <CustomButton 
+          title="Send Messege"
+          className="w-full py-3 text-white"
+          />
         </form>
       </div>
     </div>
+    <div className="px-6 max-w-7xl mx-auto mt-12">
+        <h2 className="text-4xl text-black font-bold mb-6">Similar Jobs</h2>
+        {similarJobs.length > 0 ? (
+          <HomeCard jobs={similarJobs} />
+        ) : (
+          <p>No similar jobs found.</p>
+        )}
+      </div>
     </>
   )
 }

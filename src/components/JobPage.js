@@ -3,6 +3,7 @@ import JobSidebar from './JobSidebar'
 import HomeCard from './HomeCard'
 import TopCompany from './TopCompany'
 import CustomButton from './CustomButton'
+import jobs from "@/constant/jobs.json";
 
 const JobPage = () => {
   return (
@@ -25,7 +26,7 @@ const JobPage = () => {
           </select>
         </div>
 
-        <HomeCard/>
+        <HomeCard jobs={jobs}/>
         <div className='flex justify-between items-center mt-4'>
           <div className='flex gap-4 mx-auto'>
           <CustomButton title='1'/>

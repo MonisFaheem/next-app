@@ -7,8 +7,10 @@ import Testimonials from "@/components/Testimonials";
 import CustomButton from "@/components/CustomButton";
 import BlogSection from "@/components/BlogSection";
 import Brand from "@/components/Brand";
+import jobs from '../constant/jobs.json';
 
 export default function Home() {
+  const recentJobs = jobs.slice(0, 5);
   return (
     <div >
       <HomeBanner/>
@@ -23,7 +25,7 @@ export default function Home() {
         <div className="flex justify-end mb-4 mr-12">
           <CustomButton title='View all' />
         </div>
-        <HomeCard/>
+        <HomeCard jobs={recentJobs}/>
       </section>
       <section className=" bg-[#E6F2F0]">
         <div className="text-center mt-10 pt-10">
